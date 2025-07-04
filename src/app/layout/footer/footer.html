@@ -1,0 +1,46 @@
+  <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div>
+      <h2 class="text-lg font-semibold mb-4">Mathieu STAMM</h2>
+      <p class="text-sm text-gray-400">
+        © {{ currentYear }} Tous droits réservés.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold mb-4">Liens utiles</h2>
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="text-blue-500 font-bold"
+             class="hover:underline">Accueil</a>
+        </li>
+        <li>
+          <a routerLink="/projects" [routerLinkActiveOptions]="{ exact: true }"
+             routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mes Projets</a>
+        </li>
+        <li>
+          <a routerLink="/skills" [routerLinkActiveOptions]="{ exact: true }"
+             routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mes compétences</a>
+        </li>
+        <li>
+          <a routerLink="/experiences" [routerLinkActiveOptions]="{ exact: true }"
+             routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mon CV</a>
+        </li>
+        <li>
+          <a routerLink="/contact" [routerLinkActiveOptions]="{ exact: true }"
+             routerLinkActive="text-blue-500 font-bold" class="hover:underline">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold mb-4">Suivez moi</h2>
+      <div class="flex space-x-4">
+        <img [ngSrc]="github" alt="github" width="25" height="5"/>
+        <a href="https://github.com/Mamath68" class="hover:text-blue-400" target="_blank">
+          GitHub</a>
+        <img [ngSrc]="linkedin" alt="github" width="25" height="5"/>
+        <a href="https://www.linkedin.com/in/mathieu-stamm/" class="hover:text-blue-600" target="_blank"> Linkedin</a>
+      </div>
+    </div>
+  </div>
