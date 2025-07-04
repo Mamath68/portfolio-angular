@@ -12,7 +12,14 @@
   class="fixed top-0 left-0 z-50 h-full w-64 md:w-full bg-white shadow transform transition-transform duration-300 md:relative md:translate-x-0 md:flex"
   [class.-translate-x-full]="!drawerOpen"
 >
-  <div class="p-6 border-b md:border-0 font-bold text-lg">Mathieu STAMM</div>
+  <div class="p-6 border-b md:border-0 flex justify-between">
+    <h3 class="font-bold text-lg">Mathieu STAMM</h3>
+    @if (drawerOpen) {
+      <button (click)="toggleDrawer()" class="text-gray-700 text-2xl">
+        X
+      </button>
+    }
+  </div>
   <ul class="p-4 space-y-2 md:flex">
     <li>
       <a
