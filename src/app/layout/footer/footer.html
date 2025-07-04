@@ -36,11 +36,12 @@
     <div>
       <h2 class="text-lg font-semibold mb-4">Suivez moi</h2>
       <div class="flex space-x-4">
-        <img [ngSrc]="github" alt="github" width="25" height="5"/>
-        <a href="https://github.com/Mamath68" class="hover:text-blue-400" target="_blank">
+        <a href="https://github.com/Mamath68" class="hover:text-blue-400 flex" target="_blank">
+        <img [ngSrc]="github" alt="github" class="mr-3" width="25" height="5"/>
           GitHub</a>
-        <img [ngSrc]="linkedin" alt="github" width="25" height="5"/>
-        <a href="https://www.linkedin.com/in/mathieu-stamm/" class="hover:text-blue-600" target="_blank"> Linkedin</a>
+        <a href="https://www.linkedin.com/in/mathieu-stamm/" class="hover:text-blue-600 flex" target="_blank">
+        <img [ngSrc]="linkedin" alt="github" class="mr-3" width="25" height="5"/>
+          Linkedin</a>
       </div>
     </div>
   </div>
