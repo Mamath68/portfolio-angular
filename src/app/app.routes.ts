@@ -4,6 +4,7 @@ import {Projects} from './projects/projects';
 import {Skills} from './skills/skills';
 import {Contact} from './contact/contact';
 import {Experience} from './experience/experience';
+import {Mentions} from './mentions/mentions';
 
 export const routes: Routes = [
   {path: "", component: Home, title: "Mathieu Stamm"},
@@ -11,4 +12,5 @@ export const routes: Routes = [
   {path: "skills", component: Skills, title: "Mes Compétences"},
   {path: "contact", component: Contact, title: "Me contacter"},
   {path: "experiences", component: Experience, title: "Mes expériences"},
+  {path: "mentions", component: Mentions, title: "Mentions légaux"},
 ];
