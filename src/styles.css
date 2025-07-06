@@ -68,6 +68,42 @@
   @apply font-bold text-lg pt-3 ms-20 md:hidden;
 }
 
+.burger {
+  @apply fixed inset-0 z-40 bg-black opacity-50 transition-opacity md:hidden;
+}
+
 .navbar {
   @apply fixed top-0 left-0 z-50 h-full w-64 md:w-full bg-white shadow transform transition-transform duration-300 md:relative md:translate-x-0 md:flex;
+}
+
+.brand-container {
+  @apply p-6 border-b md:border-0 flex justify-between;
+}
+
+.close-btn {
+  @apply text-gray-700 text-2xl;
+}
+
+.nav-list {
+  @apply p-4 space-y-2 md:flex;
+}
+
+.nav-link {
+  @apply block p-2 hover:bg-gray-100 rounded;
+}
+
+footer {
+  @apply bg-gray-800 text-white mt-16;
+}
+
+main {
+  @apply flex-1 p-4;
+}
+
+.container-fluid {
+  @apply min-h-screen flex flex-col;
+}
+
+.card{
+  @apply my-2 bg-amber-800 p-2;
 }

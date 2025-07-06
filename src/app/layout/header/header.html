@@ -7,7 +7,7 @@
 </div>
 
 @if (drawerOpen) {
-  <div class="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity md:hidden"
+  <div class="burger"
        (click)="toggleDrawer()"
   ></div>
 }
@@ -16,22 +16,22 @@
   class="navbar"
   [class.-translate-x-full]="!drawerOpen"
 >
-  <div class="p-6 border-b md:border-0 flex justify-between">
-    <h3 class="font-bold text-lg">Mathieu STAMM</h3>
+  <div class="brand-container">
+    <h5 class="h5">Mathieu STAMM</h5>
     @if (drawerOpen) {
-      <button (click)="toggleDrawer()" class="text-gray-700 text-2xl">
+      <button (click)="toggleDrawer()" class="close-btn">
         X
       </button>
     }
   </div>
-  <ul class="p-4 space-y-2 md:flex">
+  <ul class="nav-list">
     <li>
       <a
         routerLink="/"
         [routerLinkActiveOptions]="{ exact: true }"
         routerLinkActive="active"
         (click)="toggleDrawer()"
-        class="block p-2 hover:bg-gray-100 rounded">
+        class="nav-link">
         Accueil
       </a>
     </li>
@@ -41,7 +41,7 @@
         [routerLinkActiveOptions]="{ exact: true }"
         routerLinkActive="active"
         (click)="toggleDrawer()"
-        class="block p-2 hover:bg-gray-100 rounded">
+        class="nav-link">
         Mes Projets
       </a>
     </li>
@@ -51,7 +51,7 @@
         [routerLinkActiveOptions]="{ exact: true }"
         routerLinkActive="active"
         (click)="toggleDrawer()"
-        class="block p-2 hover:bg-gray-100 rounded">
+        class="nav-link">
         Mes compétences
       </a>
     </li>
@@ -61,7 +61,7 @@
         [routerLinkActiveOptions]="{ exact: true }"
         routerLinkActive="active"
         (click)="toggleDrawer()"
-        class="block p-2 hover:bg-gray-100 rounded">
+        class="nav-link">
         Mon CV
       </a>
     </li>
@@ -71,7 +71,7 @@
         [routerLinkActiveOptions]="{ exact: true }"
         routerLinkActive="active"
         (click)="toggleDrawer()"
-        class="block p-2 hover:bg-gray-100 rounded">
+        class="nav-link">
         Contact
       </a>
     </li>
