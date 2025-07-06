@@ -1,60 +1,68 @@
-<div class="max-w-8xl mx-auto text-center px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="grid-box">
 
   <div>
-    <h2 class="text-lg font-semibold mb-4">Mathieu STAMM</h2>
+    <h5 class="h5">Mathieu STAMM</h5>
   </div>
 
   <div>
-    <h2 class="text-lg font-semibold mb-4">Liens utiles</h2>
-    <ul class="space-y-2 text-sm">
+    <h5 class="h5">Liens utiles</h5>
+    <ul class="ul">
       <li>
-        <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="text-blue-500 font-bold"
-           class="hover:underline">Accueil</a>
+        <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+           class="link-blue">Accueil</a>
       </li>
       <li>
         <a routerLink="/projects" [routerLinkActiveOptions]="{ exact: true }"
-           routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mes Projets</a>
+           routerLinkActive="active" class="link-blue">Mes Projets</a>
       </li>
       <li>
         <a routerLink="/skills" [routerLinkActiveOptions]="{ exact: true }"
-           routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mes compétences</a>
+           routerLinkActive="active" class="link-blue">Mes compétences</a>
       </li>
       <li>
         <a routerLink="/experiences" [routerLinkActiveOptions]="{ exact: true }"
-           routerLinkActive="text-blue-500 font-bold" class="hover:underline">Mon CV</a>
+           routerLinkActive="active" class="link-blue">Mon CV</a>
       </li>
       <li>
         <a routerLink="/contact" [routerLinkActiveOptions]="{ exact: true }"
-           routerLinkActive="text-blue-500 font-bold" class="hover:underline">Contact</a>
+           routerLinkActive="active" class="link-blue">Contact</a>
       </li>
     </ul>
   </div>
 
   <div>
-    <h2 class="text-lg font-semibold mb-4">Suivez moi</h2>
-    <div class="flex space-x-4 justify-center">
-      <a href="https://github.com/Mamath68" class="hover:text-blue-400 flex" target="_blank">
+    <h5 class="h5">Suivez moi</h5>
+    <div class="network">
+      <a
+        href="https://github.com/Mamath68"
+        class="link link-blue"
+        target="_blank">
         <img [ngSrc]="github" alt="github" class="mr-3" width="25" height="5"/>
-        GitHub</a>
-      <a href="https://www.linkedin.com/in/mathieu-stamm/" class="hover:text-blue-600 flex" target="_blank">
+        GitHub
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mathieu-stamm/"
+        class="link link-blue"
+        target="_blank">
         <img [ngSrc]="linkedin" alt="github" class="mr-3" width="25" height="5"/>
-        Linkedin</a>
+        Linkedin
+      </a>
     </div>
   </div>
 </div>
-<div class="flex justify-between items-center p-6">
-  <p class="text-sm text-gray-400 text-left w-1/3">
+<div class="mentions">
+  <p class="copyright">
     © {{ currentYear }} Tous droits réservés.
   </p>
-  <div class="w-1/3 text-center">
+  <div class="mention">
     <a
       routerLink="/mentions"
       [routerLinkActiveOptions]="{ exact: true }"
-      routerLinkActive="text-blue-500 font-bold"
-      class="hover:text-blue-400">
+      routerLinkActive="active"
+      class="link-blue">
       Mentions Légaux
     </a>
   </div>
-  <div class="w-1/3"></div> <!-- Espace vide pour équilibrer -->
+  <div class="w-1/3"></div>
 </div>
 

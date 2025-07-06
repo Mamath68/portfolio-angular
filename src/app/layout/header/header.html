@@ -1,8 +1,8 @@
 <div class="flex">
-  <button (click)="toggleDrawer()" class="p-2 text-gray-700 text-3xl md:hidden">
+  <button (click)="toggleDrawer()" class="toggle">
     ☰
   </button>
-  <h3 class="font-bold text-lg pt-3 ms-20 md:hidden">Mathieu STAMM</h3>
+  <h3 class="navbar-brand">Mathieu STAMM</h3>
 
 </div>
 
@@ -13,7 +13,7 @@
 }
 
 <nav
-  class="fixed top-0 left-0 z-50 h-full w-64 md:w-full bg-white shadow transform transition-transform duration-300 md:relative md:translate-x-0 md:flex"
+  class="navbar"
   [class.-translate-x-full]="!drawerOpen"
 >
   <div class="p-6 border-b md:border-0 flex justify-between">
@@ -29,7 +29,7 @@
       <a
         routerLink="/"
         [routerLinkActiveOptions]="{ exact: true }"
-        routerLinkActive="text-blue-500 font-bold"
+        routerLinkActive="active"
         (click)="toggleDrawer()"
         class="block p-2 hover:bg-gray-100 rounded">
         Accueil
@@ -39,7 +39,7 @@
       <a
         routerLink="/projects"
         [routerLinkActiveOptions]="{ exact: true }"
-        routerLinkActive="text-blue-500 font-bold"
+        routerLinkActive="active"
         (click)="toggleDrawer()"
         class="block p-2 hover:bg-gray-100 rounded">
         Mes Projets
@@ -49,7 +49,7 @@
       <a
         routerLink="/skills"
         [routerLinkActiveOptions]="{ exact: true }"
-        routerLinkActive="text-blue-500 font-bold"
+        routerLinkActive="active"
         (click)="toggleDrawer()"
         class="block p-2 hover:bg-gray-100 rounded">
         Mes compétences
@@ -59,7 +59,7 @@
       <a
         routerLink="/experiences"
         [routerLinkActiveOptions]="{ exact: true }"
-        routerLinkActive="text-blue-500 font-bold"
+        routerLinkActive="active"
         (click)="toggleDrawer()"
         class="block p-2 hover:bg-gray-100 rounded">
         Mon CV
@@ -69,7 +69,7 @@
       <a
         routerLink="/contact"
         [routerLinkActiveOptions]="{ exact: true }"
-        routerLinkActive="text-blue-500 font-bold"
+        routerLinkActive="active"
         (click)="toggleDrawer()"
         class="block p-2 hover:bg-gray-100 rounded">
         Contact

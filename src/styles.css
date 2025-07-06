@@ -27,3 +27,47 @@
 .grid-box {
   @apply max-w-7xl mx-auto text-center px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8
 }
+
+.mentions {
+  @apply flex justify-between items-center p-6;
+}
+
+.ul {
+  @apply space-y-2 text-sm;
+}
+
+.active {
+  @apply text-blue-500 font-bold;
+}
+
+.network {
+  @apply flex space-x-4 flex-col items-center;
+}
+
+.link {
+  @apply flex my-3;
+}
+
+.link-blue {
+  @apply hover:text-blue-400 hover:underline;
+}
+
+.copyright {
+  @apply text-gray-400 w-1/3;
+}
+
+.mention {
+  @apply w-1/3 text-center;
+}
+
+.toggle {
+  @apply p-2 text-gray-700 text-4xl md:hidden;
+}
+
+.navbar-brand {
+  @apply font-bold text-lg pt-3 ms-20 md:hidden;
+}
+
+.navbar {
+  @apply fixed top-0 left-0 z-50 h-full w-64 md:w-full bg-white shadow transform transition-transform duration-300 md:relative md:translate-x-0 md:flex;
+}
