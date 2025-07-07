@@ -104,12 +104,16 @@ main {
   @apply min-h-screen flex flex-col;
 }
 
-.card{
+.card {
   @apply my-2 bg-amber-800 p-2;
 }
 
 .data {
   @apply flex justify-between;
+}
+
+.data-column {
+  @apply flex flex-col items-center justify-center;
 }
 
 .link-contact {

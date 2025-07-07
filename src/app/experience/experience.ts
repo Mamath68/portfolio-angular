@@ -1,8 +1,11 @@
 import {Component} from '@angular/core';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-experience',
-  imports: [],
+  imports: [
+    NgOptimizedImage
+  ],
   templateUrl: './experience.html',
   styleUrl: './experience.css'
 })
@@ -23,5 +26,5 @@ export class Experience {
     return age;
   }
 
-  age = this.calculateAge('1998-02-12');
+  mathieu = "img/mathieu.jpg";
 }
