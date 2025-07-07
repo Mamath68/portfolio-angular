@@ -107,3 +107,11 @@ main {
 .card{
   @apply my-2 bg-amber-800 p-2;
 }
+
+.data {
+  @apply flex justify-between;
+}
+
+.link-contact {
+  @apply text-blue-400 hover:underline;
+}
