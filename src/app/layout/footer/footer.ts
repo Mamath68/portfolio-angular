@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
@@ -14,7 +14,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   styleUrl: './footer.css'
 })
 export class Footer {
-currentYear = new Date().getFullYear();
-github = "/img/github.png";
-linkedin = "/img/linkedin.png";
+  currentYear = new Date().getFullYear();
+  github = "assets/img/github.png";
+  linkedin = "assets/img/linkedin.png";
 }

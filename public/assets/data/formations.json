@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Licence Professionnelle - Développeur d'application orientée objet",
+    "school": "Serfa - Université de haute Alsace - Mulhouse",
+    "date": "Septembre 2024 - Juillet 2025"
+  },
+  {
+    "id": 2,
+    "title": "Titre Professionnelle - Développeur Web et Web-Mobile (DWWM)",
+    "school": "Elan Formation - Mulhouse",
+    "date": "Février 2023 - Juillet 2023"
+  },
+  {
+    "id": 3,
+    "title": "Préparation au métier de développeur informatique",
+    "school": "Serfa - Université de haute Alsace - Mulhouse",
+    "date": "Mars 2022 - Novembre 2022"
+  },
+  {
+    "id": 4,
+    "title": "CAPA Métiers de l'agriculture - Option Production Horticole",
+    "school": "Legta Lucien Quelet - Valdoie(90)",
+    "date": "Septembre 2017 - Juillet 2019"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Stagiaire en informatique",
+    "company": "Association «Le REZO!»",
+    "description": "Création d'une application pour l'association",
+    "date": "Mars 2025 - Juin 2025"
+  },
+  {
+    "id": 2,
+    "title": "Stagiaire en Horticulture",
+    "company": "Blumenhaus-Gärtnerei Schönsee - Heitersheim (Allemagne)",
+    "description": "Seconde période de Stage en Horticulture pour ma seconde année de CAPA",
+    "date": "Mars 2019 - Mars 2019"
+  },
+  {
+    "id": 3,
+    "title": "Stagiaire en Horticulture",
+    "company": "Blumenhaus-Gärtnerei Schönsee - Heitersheim (Allemagne)",
+    "description": "Première période de Stage en Horticulture pour ma seconde année de CAPA",
+    "date": "Octobre 2018 - Octobre 2018"
+  },
+  {
+    "id": 4,
+    "title": "Stagiaire en Horticulture",
+    "company": "Fleurs et Plants Müller - Sausheim",
+    "description": "Seconde période de Stage en Horticulture pour ma première année de CAPA",
+    "date": "Juillet 2018 - Juillet 2018"
+  },
+  {
+    "id": 5,
+    "title": "Stagiaire en Horticulture",
+    "company": "Fleurs et Plants Müller - Sausheim",
+    "description": "Première période de Stage en Horticulture pour ma première année de CAPA",
+    "date": "Mars 2018 - Mars 2018"
+  }
+]

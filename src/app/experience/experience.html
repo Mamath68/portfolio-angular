@@ -1,83 +1,48 @@
 <div class="grid-box">
   <div class="mx-3">
-    <h2 class="h2">Mes Formations</h2>
-    <div class="card">
-      <h5 class="h5">Licence Professionnelle - Développeur d'application orientée objet</h5>
-      <p>Serfa - Université de haute Alsace - Mulhouse</p>
-      <p>Septembre 2024 - Juillet 2025</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Titre Professionnelle - Développeur Web et Web-Mobile(DWWM)</h5>
-      <p>Elan Formation - Mulhouse</p>
-      <p>Février 2023 - Juillet 2023</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Préparation au métier de développeur informatique </h5>
-      <p>Serfa - Université de haute Alsace - Mulhouse</p>
-      <p>Mars 2022 - Novembre 2022</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">CAPA Métiers de l'agriculture - Option Production Horticole</h5>
-      <p>Legta Lucien Quelet - Valdoie(90)</p>
-      <p>Septembre 2017 - Juillet 2019</p>
-    </div>
+    <h2>Mes Formations</h2>
+    @for (formation of formations; track formation.id) {
+      <app-card
+        [title]="formation.title"
+        [school]="formation.school"
+        [date]="formation.date">
+      </app-card>
+    }
   </div>
   <div class="mx-3">
-    <h2 class="h2">Mes informations</h2>
+    <h2>Mes informations</h2>
     <div class="card">
       <div class="data-column">
-        <h5 class="h5">Mathieu STAMM</h5>
+        <h5 class="card-title">Mathieu STAMM</h5>
         <img [ngSrc]="mathieu" alt="Mathieu STAMM" width="200" height="200">
       </div>
-      <p>Jeune Développeur web et Web-Mobile fraichement diplômé, actullement dans l'attente des résultats de la licence
+      <p class="card-subtitle">Jeune Développeur web et Web-Mobile fraichement diplômé, actullement dans l'attente des résultats de la licence
         professionnel, Je suis à la recherche d'un premier emploi afin de me faire mes premières expériences.</p>
     </div>
     <div class="card">
       <div class="data">
-        <h6 class="h6">Date de Naissance: </h6>
-        <p>12/02/1998 ({{ calculateAge('1998-02-12') }} ans)</p>
+        <h6 class="card-footer">Date de Naissance: </h6>
+        <p class="card-footer">12/02/1998 ({{ calculateAge('1998-02-12') }} ans)</p>
       </div>
       <div class="data">
-        <h6 class="h6">Téléphone: </h6>
+        <h6 class="card-footer">Téléphone: </h6>
         <a href="tel:+33669142804" class="link-contact">+33 669142804</a>
       </div>
       <div class="data">
-        <h6 class="h6">Email: </h6>
+        <h6 class="card-footer">Email: </h6>
         <a href="mailto:mathieu.stamm@gmail.com" class="link-contact">mathieu.stamm&#64;gmail.com</a>
       </div>
     </div>
   </div>
   <div class="mx-3">
-    <h2 class="h2">Mes Éxpérience</h2>
-    <div class="card">
-      <h5 class="h5">Stagiaire en informatique</h5>
-      <p>Association «Le REZO!»</p>
-      <p>Création d'une application pour l'association</p>
-      <p>Mars 2025 - Juin 2025</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Stagiaire en Horticulture</h5>
-      <p>Blumenhaus-Gärtnerei Schönsee - Heitersheim (Allemagne)</p>
-      <p>Seconde période de Stage en Horticulture pour ma seconde année de CAPA</p>
-      <p>Mars 2019 - Mars 2019</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Stagiaire en Horticulture</h5>
-      <p>Blumenhaus-Gärtnerei Schönsee - Heitersheim (Allemagne)</p>
-      <p>Première période de Stage en Horticulture pour ma seconde année de CAPA</p>
-      <p>Octobre 2018 - Octobre 2018</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Stagiaire en Horticulture</h5>
-      <p>Fleurs et Plants Müller - Sausheim</p>
-      <p>Seconde période de Stage en Horticulture pour ma première année de CAPA</p>
-      <p>Juillet 2018 - Juillet 2018</p>
-    </div>
-    <div class="card">
-      <h5 class="h5">Stagiaire en Horticulture</h5>
-      <p>Fleurs et Plants Müller - Sausheim</p>
-      <p>Première période de Stage en Horticulture pour ma première année de CAPA</p>
-      <p>Mars 2018 - Mars 2018</p>
-    </div>
+    <h2>Mes Éxpérience</h2>
+    @for (exp of experiences; track exp.id) {
+      <app-experience-card
+        [title]="exp.title"
+        [company]="exp.company"
+        [description]="exp.description"
+        [date]="exp.date">
+      </app-experience-card>
+    }
   </div>
 </div>

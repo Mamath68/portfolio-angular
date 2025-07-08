@@ -1,0 +1,18 @@
+<div class="card">
+  <h5 class="card-title">
+    {{ title }}
+  </h5>
+  <p class="card-subtitle">
+    {{ company }}
+  </p>
+  @if (description) {
+    <p class="card-description">
+      {{ description }}
+    </p>
+  }
+  @if (date) {
+    <p class="card-footer">
+      {{ date }}
+    </p>
+  }
+</div>

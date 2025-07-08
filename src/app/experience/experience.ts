@@ -1,15 +1,31 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
+import {Card} from '../shared/card/card';
+import {ExperienceCard} from '../shared/experience-card/experience-card';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-experience',
   imports: [
-    NgOptimizedImage
+    NgOptimizedImage,
+    Card,
+    ExperienceCard
   ],
   templateUrl: './experience.html',
   styleUrl: './experience.css'
 })
-export class Experience {
+export class Experience implements OnInit {
+  formations: any[] = [];
+  experiences: any[] = [];
+
+  constructor(private http: HttpClient) {
+  }
+
+  ngOnInit(): void {
+    this.http.get<any[]>('assets/data/formations.json').subscribe(data => this.formations = data);
+    this.http.get<any[]>('assets/data/experiences.json').subscribe(data => this.experiences = data);
+  }
+
   calculateAge(birthDateString: string): number {
     const today = new Date();
     const birthDate = new Date(birthDateString);
@@ -26,5 +42,5 @@ export class Experience {
     return age;
   }
 
-  mathieu = "img/mathieu.jpg";
+  mathieu = "assets/img/mathieu.jpg";
 }
