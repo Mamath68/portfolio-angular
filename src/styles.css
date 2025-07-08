@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 .h1 {
   @apply text-4xl font-bold leading-tight mb-4;
 }
@@ -81,7 +83,7 @@
 }
 
 .close-btn {
-  @apply text-gray-700 text-2xl;
+  @apply text-gray-700 text-2xl hover:cursor-pointer md:hidden;
 }
 
 .nav-list {
