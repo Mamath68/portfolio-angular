@@ -1,14 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Landing Page",
-    "languages": ["HTML", "CSS"],
-    "description": "Un projet de formation en HTML et CSS pure.\nUne Simple Landing page",
-    "demo": "https://landing-page-ms.netlify.app/",
-    "repo": "https://github.com/Mamath68/Simpsons-V1"
-  },
-  {
-    "id": 2,
     "title": "Projet Fil rouge",
     "languages": ["HTML", "CSS", "PHP", "Bootstrap", "Mysql"],
     "description": "Projet fil rouge pour la Formation à l'uha en 2022",
@@ -16,14 +8,30 @@
     "repo": "https://github.com/Mamath68/UHA-Project"
   },
   {
+    "id": 2,
+    "title": "Landing Page",
+    "languages": ["HTML", "CSS"],
+    "description": "Un projet de formation en HTML et CSS pure.\nUne Simple Landing page",
+    "demo": "https://landing-page-ms.netlify.app/",
+    "repo": "https://github.com/Mamath68/Simpsons-V1"
+  },
+  {
     "id": 3,
+    "title": "Exercice DOM JS",
+    "languages": ["HTML", "CSS", "JS"],
+    "description": "Un projet de formation en HTML, CSS et JS pure.\nUn Exercice sur le DOM en JS",
+    "demo": "https://d-o-m-js.netlify.app/",
+    "repo": "https://github.com/Mamath68/D.O.M_JS"
+  },
+  {
+    "id": 4,
     "title": "Projet Yu-Gi-Oh!",
     "languages": ["HTML", "CSS", "PHP", "Bootstrap", "Mysql", "YGOPRODeck", "JS"],
     "description": "Projet sur le thème de Yu-Gi-Oh!\nIl s'agit de mon projet de fin de formation pour le titre pro à élan formation en 2023.",
     "demo": "",
     "repo": "https://github.com/Mamath68/ProjetElan2023/"
   },{
-    "id": 4,
+    "id": 5,
     "title": "Application Mobile \"Le REZO\"",
     "languages": ["JS", "React-Native", "Expo", "Mysql", "Java", "Spring boot"],
     "description": "Projet pour l'association \"Le REZO!\"\nIl s'agit de mon projet de stage dans le cadre de la licence professionnel à l'UHA en 2025.",
