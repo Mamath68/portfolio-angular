@@ -16,15 +16,17 @@ export class ProjectCard {
 
   getLanguageColor(language: string): string {
     const colors: { [key: string]: string } = {
-      "flutter": "bg-purple-500",
-      "angular": "bg-red-500",
+      "react-native": "bg-red-500",
+      "php": "bg-blue-600 ",
+      "expo": "bg-cyan-400",
+      "bootstrap": "bg-purple-500",
+      "js": "bg-yellow-500",
       "html": "bg-orange-500",
-      "dart": "bg-orange-600 ",
-      "scss": "bg-green-300",
-      "node.js": "bg-green-500",
-      "express": "bg-cyan-400",
-      "typescript": "bg-blue-500 ",
-      "mongodb": "bg-blue-500 "
+      "mysql": "bg-blue-300 ",
+      "ygoprodeck": "bg-amber-800",
+      "spring boot": "bg-green-500",
+      "css": "bg-green-400",
+      "java": "bg-blue-500 "
     };
     return colors[language.toLowerCase()] || "bg-gray-500";
   }

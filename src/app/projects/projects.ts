@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {ProjectCard} from '../shared/project-card/project-card';
 
 interface Project {
+  id: number;
   title: string;
   languages: string[];
   description?: string;
@@ -28,5 +29,4 @@ export class Projects implements OnInit {
   ngOnInit(): void {
     this.http.get<any[]>('assets/data/projects.json').subscribe(data => this.projects = data);
   }
-
 }

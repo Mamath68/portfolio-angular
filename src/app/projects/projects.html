@@ -1,7 +1,7 @@
-<div class="mx-3">
+<div class="m-3">
   <h1>Mes Projets</h1>
-  <div class="grid grid-cols-3">
-    @for (exp of projects; track exp) {
+  <div class="grid grid-cols-1 md:grid-cols-3">
+    @for (exp of projects; track exp.id) {
       <app-project-card
         [title]="exp.title"
         [languages]="exp.languages"

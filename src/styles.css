@@ -108,6 +108,10 @@ main {
   @apply max-w-md mx-auto my-4 rounded-lg shadow-md bg-gray-800 p-6;
 }
 
+.project-card {
+  @apply max-w-md mx-auto rounded-lg shadow-md bg-gray-800 p-6 m-3 md:m-0;
+}
+
 .card-title {
   @apply text-white mb-2;
 }
@@ -117,7 +121,7 @@ main {
 }
 
 .card-description {
-  @apply text-gray-400 mt-1;
+  @apply text-gray-400 mt-1 whitespace-pre-line;
 }
 
 .card-company {
@@ -125,11 +129,11 @@ main {
 }
 
 .card-languages {
-  @apply flex justify-around ;
+  @apply grid grid-cols-3 ;
 }
 
 .card-language {
-  @apply rounded-2xl py-1.5 px-5 text-white text-center font-medium;
+  @apply rounded-2xl py-1.5 m-1.5 text-white text-center font-medium;
 }
 
 .card-link {

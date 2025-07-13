@@ -1,25 +1,33 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Web",
-    "languages": ["Angular", "TypeScript", "SCSS"],
-    "description": "Un site vitrine pour présenter mes réalisations.",
-    "demo": "https://www.google.com/",
-    "repo": "https://www.google.com/"
+    "title": "Landing Page",
+    "languages": ["HTML", "CSS"],
+    "description": "Un projet de formation en HTML et CSS pure.\nUne Simple Landing page",
+    "demo": "https://landing-page-ms.netlify.app/",
+    "repo": "https://github.com/Mamath68/Simpsons-V1"
   },
   {
     "id": 2,
-    "title": "API de gestion",
-    "languages": ["Node.js", "Express", "MongoDB"],
-    "description": "Backend pour gérer les données de projets.",
-    "demo": "https://www.bing.com/",
-    "repo": "https://www.bing.com/"
+    "title": "Projet Fil rouge",
+    "languages": ["HTML", "CSS", "PHP", "Bootstrap", "Mysql"],
+    "description": "Projet fil rouge pour la Formation à l'uha en 2022",
+    "demo": "",
+    "repo": "https://github.com/Mamath68/UHA-Project"
   },
   {
     "id": 3,
-    "title": "Appli mobile",
-    "languages": ["Flutter", "Dart"],
-    "demo": "https://fr.yahoo.com/",
-    "repo": "https://fr.yahoo.com/"
+    "title": "Projet Yu-Gi-Oh!",
+    "languages": ["HTML", "CSS", "PHP", "Bootstrap", "Mysql", "YGOPRODeck", "JS"],
+    "description": "Projet sur le thème de Yu-Gi-Oh!\nIl s'agit de mon projet de fin de formation pour le titre pro à élan formation en 2023.",
+    "demo": "",
+    "repo": "https://github.com/Mamath68/ProjetElan2023/"
+  },{
+    "id": 4,
+    "title": "Application Mobile \"Le REZO\"",
+    "languages": ["JS", "React-Native", "Expo", "Mysql", "Java", "Spring boot"],
+    "description": "Projet pour l'association \"Le REZO!\"\nIl s'agit de mon projet de stage dans le cadre de la licence professionnel à l'UHA en 2025.",
+    "demo": "",
+    "repo": "https://github.com/Mamath68/Application_Rezo/tree/v3"
   }
 ]
