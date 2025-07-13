@@ -116,7 +116,7 @@ main {
   @apply text-gray-300 mt-2 ;
 }
 
-.card-description{
+.card-description {
   @apply text-gray-400 mt-1;
 }
 
@@ -124,11 +124,27 @@ main {
   @apply text-gray-300 font-medium;
 }
 
-.card-date{
+.card-languages {
+  @apply flex justify-around ;
+}
+
+.card-language {
+  @apply rounded-2xl py-1.5 px-5 text-white text-center font-medium;
+}
+
+.card-link {
+  @apply rounded-2xl py-1.5 px-5 text-white text-center font-medium;
+}
+
+.link-container {
+  @apply flex justify-around pt-4;
+}
+
+.card-date {
   @apply text-gray-400 mt-2;
 }
 
-.card-footer{
+.card-footer {
   @apply text-gray-400;
 }
 

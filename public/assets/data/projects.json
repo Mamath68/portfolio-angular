@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Web",
+    "languages": ["Angular", "TypeScript", "SCSS"],
+    "description": "Un site vitrine pour présenter mes réalisations.",
+    "demo": "https://www.google.com/",
+    "repo": "https://www.google.com/"
+  },
+  {
+    "id": 2,
+    "title": "API de gestion",
+    "languages": ["Node.js", "Express", "MongoDB"],
+    "description": "Backend pour gérer les données de projets.",
+    "demo": "https://www.bing.com/",
+    "repo": "https://www.bing.com/"
+  },
+  {
+    "id": 3,
+    "title": "Appli mobile",
+    "languages": ["Flutter", "Dart"],
+    "demo": "https://fr.yahoo.com/",
+    "repo": "https://fr.yahoo.com/"
+  }
+]

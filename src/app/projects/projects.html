@@ -1,1 +1,15 @@
-<h1>Mes projets</h1>
+<div class="mx-3">
+  <h1>Mes Projets</h1>
+  <div class="grid grid-cols-3">
+    @for (exp of projects; track exp) {
+      <app-project-card
+        [title]="exp.title"
+        [languages]="exp.languages"
+        [description]="exp.description"
+        [demo]="exp.demo"
+        [repo]="exp.repo"
+      >
+      </app-project-card>
+    }
+  </div>
+</div>

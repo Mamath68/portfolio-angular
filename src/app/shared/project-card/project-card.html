@@ -1,0 +1,29 @@
+<div class="card">
+  <h5 class="card-title">
+    {{ title }}
+  </h5>
+  <ul class="card-languages">
+    @for (lang of languages; track lang) {
+      <li class="card-language {{ getLanguageColor(lang) }}"> {{ lang }}</li>
+    } @empty {
+      <li>Aucun langage spécifié</li>
+    }
+  </ul>
+  @if (description) {
+    <p class="card-description">
+      {{ description }}
+    </p>
+  }
+  <div class="link-container">
+  @if (demo) {
+    <a href="{{demo}}" target="_blank" class="card-link bg-blue-800">
+      Démo
+    </a>
+  }
+  @if (repo) {
+    <a href="{{repo}}" target="_blank" class="card-link bg-orange-400">
+      Répo
+    </a>
+  }
+  </div>
+</div>
