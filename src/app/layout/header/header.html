@@ -2,7 +2,7 @@
   <button (click)="toggleDrawer()" class="toggle">
     ☰
   </button>
-  <h3 class="navbar-brand">Mathieu STAMM</h3>
+  <a routerLink="/" class="navbar-brand">Mathieu STAMM</a>
 
 </div>
 
@@ -17,7 +17,7 @@
   [class.-translate-x-full]="!drawerOpen"
 >
   <div class="brand-container">
-    <h5>Mathieu STAMM</h5>
+    <a routerLink="/">Mathieu STAMM</a>
     <button (click)="toggleDrawer()" class="close-btn">
       X
     </button>
