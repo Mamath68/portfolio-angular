@@ -1,1 +1,40 @@
 <h1>Me Contacter</h1>
+<form action="https://formspree.io/f/xvgqpdpd" method="POST">
+
+  <app-input
+    identifier="email"
+    name="email"
+    type="email"
+    label="Email"
+    placeholder="Entrez votre Email"
+  ></app-input>
+
+  <app-input
+    identifier="name"
+    name="name"
+    type="text"
+    label="Nom et prénom, ou entreprise"
+    placeholder="Entrez votre Nom et prenom"
+  ></app-input>
+
+  <app-input
+    identifier="subject"
+    name="subject"
+    type="text"
+    label="Sujet"
+    placeholder="Entrez le sujet"
+  ></app-input>
+
+  <app-textarea
+    label="Votre message"
+    name="message"
+    placeholder="Écrivez votre message ici..."
+  ></app-textarea>
+
+  <button
+    type="submit"
+    class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+  >
+    Envoyer
+  </button>
+</form>
