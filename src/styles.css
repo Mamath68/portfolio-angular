@@ -165,7 +165,7 @@ main {
 }
 
 .card-grid {
-  @apply grid grid-cols-1 md:grid-cols-5;
+  @apply grid grid-cols-1 md:grid-cols-3;
 }
 
 .card-grid-skill {

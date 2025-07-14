@@ -21,7 +21,7 @@
   },
   {
     "id": 5,
-    "title": "React",
+    "title": "React native",
     "img": "/assets/img/react.svg"
   },
   {
@@ -52,7 +52,7 @@
   {
     "id": 11,
     "title": "MySQL",
-    "img": "/assets/img/MySQL.svg"
+    "img": "/assets/img/mysql.svg"
   },
   {
     "id": 12,
@@ -68,5 +68,15 @@
     "id": 14,
     "title": "Python",
     "img": "/assets/img/python.svg"
+  },
+  {
+    "id": 15,
+    "title": "Java",
+    "img": "/assets/img/java.svg"
+  },
+  {
+    "id": 15,
+    "title": "Expo",
+    "img": "/assets/img/expo.svg"
   }
 ]
