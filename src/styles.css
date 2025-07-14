@@ -145,7 +145,7 @@ main {
 }
 
 .card-date {
-  @apply text-gray-400 mt-2;
+  @apply text-gray-400 mt-2 mb-[15px];
 }
 
 .card-footer {
@@ -162,4 +162,12 @@ main {
 
 .link-contact {
   @apply text-[#6890FE] hover:underline;
+}
+
+.formations {
+  @apply hover:rotate-2 hover:scale-105 transition-transform duration-300 ease-in-out;
+}
+
+.experiences {
+  @apply hover:rotate-2 hover:scale-105 transition-transform duration-300 ease-in-out;
 }
