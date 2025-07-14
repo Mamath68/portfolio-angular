@@ -109,7 +109,7 @@ main {
 }
 
 .project-card {
-  @apply max-w-md mx-auto rounded-lg shadow-md bg-gray-800 p-6 m-3 md:m-2;
+  @apply max-w-md mx-auto rounded-lg shadow-md bg-gray-800 p-6 m-3 md:m-2 hover:rotate-2 hover:scale-105 transition-transform duration-300 ease-in-out;
 }
 
 .card-title {
