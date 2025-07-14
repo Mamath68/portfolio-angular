@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "img": "/assets/img/html.svg"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "img": "/assets/img/css.svg"
+  },
+  {
+    "id": 3,
+    "title": "JS",
+    "img": "/assets/img/js.svg"
+  },
+  {
+    "id": 4,
+    "title": "Typescript",
+    "img": "/assets/img/ts.svg"
+  },
+  {
+    "id": 5,
+    "title": "React",
+    "img": "/assets/img/react.svg"
+  },
+  {
+    "id": 6,
+    "title": "NextJS",
+    "img": "/assets/img/next.svg"
+  },
+  {
+    "id": 7,
+    "title": "NodeJs",
+    "img": "/assets/img/node.svg"
+  },
+  {
+    "id": 8,
+    "title": "VueJs",
+    "img": "/assets/img/vue.svg"
+  },
+  {
+    "id": 9,
+    "title": "PHP",
+    "img": "/assets/img/php.svg"
+  },
+  {
+    "id": 10,
+    "title": "Symfony",
+    "img": "/assets/img/symfony.svg"
+  },
+  {
+    "id": 11,
+    "title": "MySQL",
+    "img": "/assets/img/MySQL.svg"
+  },
+  {
+    "id": 12,
+    "title": "Tailwind",
+    "img": "/assets/img/tailwind.svg"
+  },
+  {
+    "id": 13,
+    "title": "Python",
+    "img": "/assets/img/python.svg"
+  }
+]

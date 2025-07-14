@@ -1,1 +1,11 @@
-<h1>Mes Compétences</h1>
+<div class="m-3">
+  <h1>Mes Compétences</h1>
+  <div class="card-grid-skill">
+    @for (skill of skills; track skill.id) {
+      <app-skill-card
+        [title]="skill.title"
+        [img]="skill.img">
+      </app-skill-card>
+    }
+  </div>
+</div>

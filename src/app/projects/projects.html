@@ -1,6 +1,6 @@
 <div class="m-3">
   <h1>Mes Projets</h1>
-  <div class="grid grid-cols-1 md:grid-cols-3">
+  <div class="card-grid">
     @for (exp of projects; track exp.id) {
       <app-project-card
         [title]="exp.title"
