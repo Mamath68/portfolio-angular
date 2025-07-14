@@ -61,6 +61,11 @@
   },
   {
     "id": 13,
+    "title": "Bootstrap",
+    "img": "/assets/img/bootstrap.png"
+  },
+  {
+    "id": 14,
     "title": "Python",
     "img": "/assets/img/python.svg"
   }
