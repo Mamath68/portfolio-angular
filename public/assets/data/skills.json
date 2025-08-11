@@ -11,7 +11,7 @@
   },
   {
     "id": 3,
-    "title": "JS",
+    "title": "",
     "img": "/assets/img/js.svg"
   },
   {
@@ -41,17 +41,17 @@
   },
   {
     "id": 9,
-    "title": "PHP",
+    "title": "",
     "img": "/assets/img/php.svg"
   },
   {
     "id": 10,
-    "title": "Symfony",
+    "title": "",
     "img": "/assets/img/symfony.svg"
   },
   {
     "id": 11,
-    "title": "MySQL",
+    "title": "",
     "img": "/assets/img/mysql.svg"
   },
   {
@@ -71,11 +71,11 @@
   },
   {
     "id": 15,
-    "title": "Java",
+    "title": "",
     "img": "/assets/img/java.svg"
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Expo",
     "img": "/assets/img/expo.svg"
   }
