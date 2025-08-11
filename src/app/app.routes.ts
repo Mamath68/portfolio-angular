@@ -7,10 +7,10 @@ import {Experience} from './experience/experience';
 import {Mentions} from './mentions/mentions';
 
 export const routes: Routes = [
-  {path: "", component: Home, title: "Mathieu Stamm"},
-  {path: "projects", component: Projects, title: "Mes Projets"},
-  {path: "skills", component: Skills, title: "Mes Compétences"},
-  {path: "contact", component: Contact, title: "Me contacter"},
-  {path: "experiences", component: Experience, title: "Mes expériences"},
-  {path: "mentions", component: Mentions, title: "Mentions légaux"},
+  {path: "", component: Home},
+  {path: "projects", component: Projects},
+  {path: "skills", component: Skills},
+  {path: "contact", component: Contact},
+  {path: "experiences", component: Experience},
+  {path: "mentions", component: Mentions},
 ];

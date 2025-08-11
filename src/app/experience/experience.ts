@@ -3,6 +3,7 @@ import {NgOptimizedImage} from '@angular/common';
 import {Card} from '../shared/card/card';
 import {ExperienceCard} from '../shared/experience-card/experience-card';
 import {HttpClient} from '@angular/common/http';
+import {Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-experience',
@@ -17,8 +18,10 @@ import {HttpClient} from '@angular/common/http';
 export class Experience implements OnInit {
   formations: any[] = [];
   experiences: any[] = [];
+  title: string = "Mes expériences";
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private titleService: Title) {
+    this.titleService.setTitle($localize`${this.title}`);
   }
 
   ngOnInit(): void {

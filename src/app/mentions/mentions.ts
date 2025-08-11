@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-mentions',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './mentions.css'
 })
 export class Mentions {
+  title: string = "Mentions légaux"
+  constructor(private titleService: Title) {
+    this.titleService.setTitle($localize`${this.title}`);
+  }
 
 }

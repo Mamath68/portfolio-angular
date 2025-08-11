@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions/mentions.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3905656218725393252" datatype="html">
+        <source>Jeune développeur Web et Web-Mobile fraîchement diplômé, actuellement en attente des résultats de ma licence professionnelle, je suis à la recherche d’un premier emploi afin d’acquérir mes premières expériences.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7275359988423368515" datatype="html">
+        <source>Date de Naissance: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2476487432232699126" datatype="html">
+        <source>12/02/1998 (<x id="INTERPOLATION" equiv-text="{{ calculateAge(&apos;1998-02-12&apos;) }}"/> ans)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5292787453001277707" datatype="html">
+        <source>Habite à: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2405075415499797411" datatype="html">
+        <source>Téléphone: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2335054217475100588" datatype="html">
+        <source>Jeune développeur de <x id="INTERPOLATION" equiv-text="{{ calculateAge(&apos;1998-02-12&apos;) }}"/> ans, actuellement en attente des résultats de ma licence professionnelle, je suis à la recherche d’un premier emploi afin d’acquérir mes premières expériences.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
