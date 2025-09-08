@@ -4,12 +4,6 @@
   "newProjectRoot": "projects",
   "projects": {
     "portfolio-angular": {
-      "i18n": {
-        "sourceLocale": "fr",
-        "locales": {
-          "en-US": "src/locale/experiences.en.xlf"
-        }
-      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -23,9 +17,6 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "localize": [
-              "en-US"
-            ],
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js",
@@ -82,9 +73,6 @@
             }
           },
           "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
         },
         "test": {
           "builder": "@angular/build:karma",
