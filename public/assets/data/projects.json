@@ -34,7 +34,7 @@
     "id": 5,
     "title": "Application Mobile \"Le REZO\"",
     "languages": ["JS", "React-Native", "Expo", "Mysql", "Java", "Spring boot"],
-    "description": "Projet pour l'association \"Le REZO!\"\nIl s'agit de mon projet de stage dans le cadre de la licence professionnel à l'UHA en 2025.",
+    "description": "Projet pour l'association \"Le REZO!\"\nIl s'agit de mon projet de stage dans le cadre de la licence professionnelle à l'UHA en 2025.",
     "demo": "",
     "repo": "https://github.com/Mamath68/Application_Rezo/tree/v3"
   }

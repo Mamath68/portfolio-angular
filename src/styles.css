@@ -27,7 +27,25 @@ h6 {
 footer {
   @apply bg-gray-800 text-white mt-16;
 }
+.card {
+  @apply bg-gray-800 rounded-2xl shadow-lg p-6 transition-transform duration-300 hover:scale-[1.02];
+}
 
+.btn-primary {
+  @apply bg-[#6890FE] text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition;
+}
+
+.btn-secondary {
+  @apply border border-gray-500 text-gray-300 px-4 py-2 rounded-lg hover:bg-gray-700 transition;
+}
+
+.label {
+  @apply text-gray-400 text-sm;
+}
+
+.value {
+  @apply text-white mt-1;
+}
 main {
   @apply flex-1 p-4;
 }
@@ -104,7 +122,7 @@ main {
   @apply min-h-screen flex flex-col;
 }
 
-.card {
+.exp-card {
   @apply max-w-md mx-auto my-4 rounded-lg shadow-md bg-gray-800 p-6 hover:rotate-2 hover:scale-105 transition-transform duration-300 ease-in-out;
 }
 

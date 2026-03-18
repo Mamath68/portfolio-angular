@@ -11,7 +11,7 @@
   },
   {
     "id": 3,
-    "title": "",
+    "title": "Javascript",
     "img": "/assets/img/js.svg"
   },
   {
@@ -41,18 +41,18 @@
   },
   {
     "id": 9,
-    "title": "",
+    "title": "PHP",
     "img": "/assets/img/php.svg"
   },
   {
     "id": 10,
-    "title": "",
+    "title": "Symfony",
     "img": "/assets/img/symfony.svg"
   },
   {
     "id": 11,
-    "title": "",
-    "img": "/assets/img/mysql.svg"
+    "title": "MySQL",
+    "img": "/assets/img/MySQL.svg"
   },
   {
     "id": 12,
@@ -71,12 +71,17 @@
   },
   {
     "id": 15,
-    "title": "",
+    "title": "Java",
     "img": "/assets/img/java.svg"
   },
   {
     "id": 16,
     "title": "Expo",
     "img": "/assets/img/expo.svg"
+  },
+  {
+    "id": 18,
+    "title": "Angular",
+    "img": "/assets/img/angular_gradient.png"
   }
 ]
